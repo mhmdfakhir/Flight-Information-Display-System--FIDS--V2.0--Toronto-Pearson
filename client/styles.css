@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+* {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: rgb(240, 240, 240);
+    font-size: 35px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(251, 199, 127);
+}
+
+h1 {
+    padding: 10px;
+}
+
+.departures {
+    background-color: rgb(6, 6, 6);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.departures table {
+    background-color: rgb(46, 46, 46);
+    text-align: left;
+}
